@@ -44,7 +44,7 @@ export default function Hero() {
             onError={(e) => {
               // Fallback if logo.jpeg doesn't load yet
               e.currentTarget.src = "/logo.png";
-              e.currentTarget.onerror = (err) => {
+              e.currentTarget.onerror = () => {
                 e.currentTarget.src = "https://cdn-icons-png.flaticon.com/512/1041/1041935.png";
               };
             }}

@@ -21,7 +21,6 @@ export default function MenuItemCard({ item, categoria }: MenuItemCardProps) {
   return (
     <motion.div
       whileHover={{ y: -4 }}
-      className={`p-5 transition-all relative flex flex-col justify-between h-full`}
       style={{
         backgroundColor: 'var(--color-tarjeta-bg)',
         borderRadius: 'var(--radius-custom)',
